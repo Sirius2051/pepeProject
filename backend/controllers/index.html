@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Online</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #calculator {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .buttons {
+            display: flex;
+            gap: 5px;
+            max-width: 600px;
+            margin: 20px 0;
+        }
+
+        button {
+            background-color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .numbers {
+            display: inline-block;
+            width: 60px;
+            height: 20px;
+            margin: 10px;
+            position: relative;
+        }
+
+        .operator {
+            display: inline-block;
+            width: 35px;
+            height: 20px;
+            margin: 10px;
+            position: absolute;
+            left: -8px;
+        }
+
+        .memory-button, .delete-btn {
+            background-color: #ffdf00;
+        }
+
+        . memory-input {
+            width: 45px;
+            margin: 10px;
+        }
+
+        .function-key {
+            color: #ffdd00;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="memory" placeholder=" memory " readonly>
+        <input type="text" id="delete" placeholder=" delete " readonly>
+        <button onclick="clearMemory()"">&times;</button>
+        <button onclick="multiply()" "&times; &times;">×</button>
+        <button onclick="divide()" "/" onclick="calculateDivision()" '&div;&divide;'>&div;&divide;÷</button>
+        <button onclick="delete()" clearAccess deletes id="delete">-</button>
+        <button onclick="clearFunction()" recallAccess recall function 4 is deleted. delete button."></button>
+        <button type="button" onclick="backspace()" &endgr;(backspace)></button>
+    </div>
+
+    <div id="memory">
+        <input type="text" placeholder=" memory input " readonly> 
+    </div>
+
+    <div id="delete">
+        <input type="text" placeholder=" delete input " readonly>
+    </div>
+
+    <div id="function">
+        <button onclick=" recallAccess recall function 3 is deleted. press any number key again." />&divide; &divide;&divide;
+    </div>
+
+    <script>
+        let memory = 0;
+        let calculateFunction = '';
+
+        function clearMemory() {
+            document.getElementById('memory').value = '';
+            memory = 0;
+        }
+
+        function multiply() {
+            let a = parseFloat(document.getElementById('numbers').value);
+            let b = parseFloat(document.getElementById('operator').value);
+            memory = (a * b).toFixed(2);
+            updateDisplay(memory);
+        }
+
+        function divide() {
+            let a = parseFloat(document.getElementById('numbers').value);
+            let b = parseFloat(document.getElementById('operator').value);
+            memory = (a / b).toFixed(2);
+            updateDisplay(memory);
+        }
+
+        function delete() {
+            document.getElementById('delete').value = '';
+            clearFunction();
+        }
+
+        function clearFunction() {
+            calculateFunction = document.getElementById('function').value;
+            let oldValue = parseFloat(document.getElementById('numbers').value);
+            document.getElementById('memory').value = memory;
+            if (calculateFunction !== '') {
+                delete(oldValue);
+            }
+        }
+
+        function backspace() {
+            document.getElementById('function').value += document.getElementById('endgr').value;
+            clearFunction();
+        }
+
+        function multiplyButtonClick() {
+            calculateFunction = '×';
+        }
+
+        function divideButtonClick() {
+            calculateFunction = '÷';
+        }
+
+        function clearButtonClick() {
+            calculateFunction = '';
+        }
+
+        function deleteButtonClick() {
+            document.getElementById('delete').value = '';
+        }
+
+        function recallButtonClick() {
+            if (calculateFunction !== '') {
+                let a = parseFloat(document.getElementById('numbers').value);
+                let b = parseFloat(document.getElementById('operator').value);
+                memory = (a + b).toFixed(2);
+                updateDisplay(memory);
+            }
+            calculateFunction = '';
+        }
+
+        function clearButtonClick() {
+            document.getElementById('delete').value = '';
+            clearMemory();
+            recallButtonClick();
+        }
+
+        function endgr() {
+            if (!calculateFunction) return;
+            let oldValue = parseFloat(document.getElementById('numbers').value);
+            document.getElementById('function').value += oldValue;
+            document.getElementById('memory').value = memory;
+            if (calculateFunction !== '') {
+                delete(oldValue);
+            }
+        }
+
+        function updateDisplay(memory) {
+            document.getElementById('function').textContent = calculateFunction + ' = ';
+            const numbers = document.getElementById('numbers');
+            numbers.textContent = memory.toFixed(2);
+            document.getElementById('delete').value = '';
+        }
+
+        // Actualizar funciones JavaScript
+        clearMemory();
+        multiplyButtonClick();
+    </script>
+</body>
+</html>
+
