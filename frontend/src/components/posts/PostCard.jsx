@@ -18,6 +18,9 @@ const PostCard = ({ post }) => {
     if (text.length <= maxLength) return text
     return text.slice(0, maxLength) + "..."
   }
+  if (!post || !post.User) {
+    return <div>Cargando...</div>;
+  }
 
   return (
     <div className="card mb-4">
@@ -80,9 +83,9 @@ const PostCard = ({ post }) => {
         <button className="btn btn-outline-secondary btn-sm">
           <i className="bi bi-chat me-1"></i> Comentar
         </button>
-        <button className="btn btn-outline-secondary btn-sm">
+        <a href={"http://localhost:5173/post/" + post.id} target="_blank" className="btn btn-outline-secondary btn-sm">
           <i className="bi bi-share me-1"></i> Compartir
-        </button>
+        </a>
       </div>
 
       {/* Componente de comentarios */}

@@ -17,12 +17,12 @@ const Login = () => {
   const { login, isAuthenticated } = useAuth()
 
   // Obtener la ruta desde donde fue redirigido (si existe)
-  const from = location.state?.from?.pathname || "/"
+  const from = "/2fa/"
 
   // Verificar si ya está autenticado
   useEffect(() => {
     if (isAuthenticated()) {
-      navigate(from, { replace: true })
+      // navigate(from, { replace: true })
     }
   }, [from, navigate, isAuthenticated])
 
@@ -37,9 +37,9 @@ const Login = () => {
       if (result.success) {
         // Mostrar mensaje de éxito
         alert("Inicio de sesión exitoso")
-
+        console.log(result)
         // Redirigir a la página desde donde fue redirigido o al home
-        navigate(from, { replace: true })
+        navigate(from+result.userId, { replace: true })
       } else {
         setError(result.error)
       }
@@ -97,6 +97,11 @@ const Login = () => {
             <div className="mt-3 text-center">
               <p>
                 ¿No tienes una cuenta? <Link to="/register">Regístrate</Link>
+              </p>
+            </div>
+            <div className="mt-3 text-center">
+              <p>
+                ¿Olvideaste tu contraseña? <Link to="/forgot-password">Recuperala</Link>
               </p>
             </div>
           </form>

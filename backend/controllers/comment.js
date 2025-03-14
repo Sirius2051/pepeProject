@@ -1,10 +1,10 @@
 const express = require("express")
 const router = express.Router()
 const { Comment, User, Post } = require("../models")
-const authMiddleware = require('../middlewares/auth')
-
+// const authMiddleware = require('../middlewares/auth')
+const {sendMail} = require('./sendMail')
 // 📌 Crear un comentario
-router.post("/create", authMiddleware, async (req, res) => {
+router.post("/create", async (req, res) => {
   const { content, userID, postID } = req.body
 
   try {
@@ -20,7 +20,15 @@ router.post("/create", authMiddleware, async (req, res) => {
       userID,
       postID,
     })
-
+      console.log(post.userId)
+    const user = await User.findByPk(post.userID);
+    const userC = await User.findByPk(userID);
+    sendMail(user.username, 'Hay un nuevo comentario en tu publicación', `
+        <h1>${userC.username} comentó:</h1>\
+        <p>
+          ${content}
+        </p>
+      `)
     // Obtener el comentario con datos del usuario para devolverlo
     const commentWithUser = await Comment.findByPk(comment.id, {
       include: {
@@ -40,7 +48,7 @@ router.post("/create", authMiddleware, async (req, res) => {
 })
 
 // 📌 Obtener todos los comentarios de una publicación
-router.get("/post/:postId", authMiddleware, async (req, res) => {
+router.get("/post/:postId", async (req, res) => {
   const { postId } = req.params
 
   try {

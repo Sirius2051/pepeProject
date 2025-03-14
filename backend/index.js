@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const dbConfig = require('./config/config.json').development;
 require('dotenv').config();
+// const transporter = require('./config/mail');
 
 const app = express();
 const port = process.env.PORT;
@@ -13,7 +14,7 @@ const host = process.env.HOST;
 
 app.use('/uploads', express.static('uploads'));
 
-app.use(cookieParser())
+// app.use(cookieParser())
 app.use(bodyParser.json());
 app.use(cors({
     origin: process.env.ORIGIN,
@@ -52,6 +53,7 @@ const cookieParser = require('cookie-parser');
 app.use('/api/users', userRoutes);
 app.use('/api/posts', postRoutes);
 app.use('/api/comments', commentRoutes);
+
 
 app.listen(port, () => {
     console.log(`Corriendo: ${host}:${port}`)

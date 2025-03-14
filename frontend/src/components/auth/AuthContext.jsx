@@ -45,8 +45,9 @@ export const AuthProvider = ({ children }) => {
       if (response.ok) {
         localStorage.setItem("token", data.token)
         localStorage.setItem("userId", data.userId)
+        
         setCurrentUser({ id: data.userId })
-        return { success: true }
+        return { success: true, userId: data.userId }
       } else {
         return { success: false, error: data.error || "Error al iniciar sesión" }
       }
@@ -73,6 +74,8 @@ export const AuthProvider = ({ children }) => {
       // Limpiar localStorage y estado
       localStorage.removeItem("token")
       localStorage.removeItem("userId")
+
+      location.reload();
       setCurrentUser(null)
     }
   }

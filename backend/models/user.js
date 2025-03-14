@@ -23,7 +23,9 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.STRING,
     profileImg: DataTypes.STRING,
     coverImg: DataTypes.STRING,
-    jobTitle: DataTypes.STRING
+    jobTitle: DataTypes.STRING,
+    secret: DataTypes.STRING,
+    token: DataTypes.STRING,
 
     
 

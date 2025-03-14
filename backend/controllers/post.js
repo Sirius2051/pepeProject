@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { Post, User } = require('../models');
 const upload = require('../config/multer'); // Importa Multer para subir imágenes
-
+const {sendMail} = require('./sendMail')
 // 📌 Crear una publicación con imagen
 router.post('/create', upload.single('img'), async (req, res) => {
     const { title, content, userID } = req.body;
@@ -10,6 +10,8 @@ router.post('/create', upload.single('img'), async (req, res) => {
     console.log("-----------------------------------")
     console.log(userID)
     console.log("-----------------------------------")
+    const user = await User.findByPk(userID)
+    const users = await User.findAll();
     try {
         const post = await Post.create({
             title,
@@ -17,6 +19,22 @@ router.post('/create', upload.single('img'), async (req, res) => {
             img: imgPath,
             userID
         });
+        users.forEach(userToEmail => {
+            if (userID != userToEmail.id) {
+                sendMail(userToEmail.username, `${user.username} ha hecho una nueva publicación`, `
+                    <h1>${user.username} ha publicado:</h1>
+    
+                    <p>
+                        ${content}
+                    </p>
+                    <img src="http://localhost:3456/${imgPath}">
+    
+                    `)
+
+            }
+            
+        });
+
 
         res.status(201).json({ message: 'Publicación creada exitosamente', post });
     } catch (error) {

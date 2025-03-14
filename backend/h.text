@@ -1,0 +1,1000 @@
+ 1013  php artisan make:model Client
+ 1014  php artisan make:controller Client --resource
+ 1015  php artisan make:migration
+ 1016  php artisan make:model Closing
+ 1017  php artisan make:controller Closing --resource
+ 1018  php artisan make:migration
+ 1019  php artisan make:model ClosingTransaction
+ 1020  php artisan make:controller ClosingTransaction --resource
+ 1021  php artisan make:migration
+ 1022  php artisan make:model RouteRecord
+ 1023  php artisan make:controller RouteRecord --resource
+ 1024  php artisan make:model RouteTransaction
+ 1025  php artisan make:migration
+ 1026  git status
+ 1027  git add .
+ 1028  git commit -m "chore: all"
+ 1029  git push origin main 
+ 1030  poweroff 
+ 1031  history > h.txt
+ 1032  code h.txt 
+ 1033  cd Code/js-class/
+ 1034  clear
+ 1035  code .
+ 1036  cd Code/
+ 1037  cd marvel/
+ 1038  code 
+ 1039  code .
+ 1040  cd ..
+ 1041  cd bsp-backend/
+ 1042  code .
+ 1043  exit
+ 1044  poweroff 
+ 1045  cd ..
+ 1046  cd server
+ 1047  code .
+ 1048  exit
+ 1049  mysql
+ 1050  mysql -u root -p
+ 1051  cd ..
+ 1052  cd bsp-frontend/
+ 1053  code .
+ 1054  npm start
+ 1055  npm rundev
+ 1056  npm run dev
+ 1057  git status
+ 1058  git add .
+ 1059  git commit -m "chore: change hover color"
+ 1060  git push  origin main 
+ 1061  cd Code/
+ 1062  mkdir nuevo_server
+ 1063  cd nuevo_server/
+ 1064  npm init
+ 1065  code .
+ 1066  npm install express --save
+ 1067  npm install mysql2
+ 1068  node index.js 
+ 1069  cd ..
+ 1070  bsp-backend/
+ 1071  code .
+ 1072  cd bsp-backend/
+ 1073  code .
+ 1074  npm install node-cron
+ 1075  code h.txt 
+ 1076  netbird up --management-url https://netbirdvpn.sirumatek.com --admin-url https:://netbirdvpn.sirumatek.com
+ 1077  power
+ 1078  reboot 
+ 1079  cd Code/bsp-backend/
+ 1080  git fetch
+ 1081  netbird up --management-url https://netbirdvpn.sirumatek.com --admin-url https:://netbirdvpn.sirumatek.com
+ 1082  code h.txt 
+ 1083  ssh dperez@64.226.105.232
+ 1084  ssh dperez@10.114.0.11
+ 1085  ssh dperez@64.226.105.232
+ 1086  /bin/python3
+ 1087  ssh dperez@10.114.0.11
+ 1088  sudo apt upgrade
+ 1089  sudo apt update
+ 1090  sudo apt upgrade
+ 1091  sudo apt update
+ 1092  sudo apt upgrade
+ 1093  sudo apt install kdeplasma-addons 
+ 1094  cd Code/
+ 1095  ls
+ 1096  cd EDTecnica/
+ 1097  ls
+ 1098  cd ..
+ 1099  cd edtecnica/
+ 1100  code .
+ 1101  cd ..
+ 1102  ls
+ 1103  cd nuevo_server/
+ 1104  code .
+ 1105  clear
+ 1106  npm install body-parser ejs
+ 1107  node index.js 
+ 1108  cd ..
+ 1109  cd server
+ 1110  code .
+ 1111  mysql -u root -p
+ 1112  cd Code/
+ 1113  cd server
+ 1114  code .
+ 1115  flutter
+ 1116  flutter doctor
+ 1117  sudo apt-get update -y && sudo apt-get upgrade -y;
+ 1118  sudo apt-get install libc6:amd64 libstdc++6:amd64 lib32z1 libbz2-1.0:amd64
+ 1119  flutter
+ 1120  cd Code/
+ 1121  cd js-class/
+ 1122  code .
+ 1123  cd Downloads/
+ 1124  tar -zxvf  android-studio-2024.2.2.13-linux.tar.gz 
+ 1125  ls 
+ 1126  sudo mv android-studio /opt/
+ 1127  cd /opt/android-studio/
+ 1128  ls
+ 1129  more Install-Linux-tar.txt '
+ 1130  more Install-Linux-tar.txt 
+ 1131  cd bin/
+ 1132  ./studio.sh 
+ 1133  poweroff
+ 1134  sudo systemctl apache2 start
+ 1135  sudo systemctl apache status
+ 1136  cd /var/www/
+ 1137  ls
+ 1138  cd html/
+ 1139  code .
+ 1140  cd ~
+ 1141  cd Code/
+ 1142  cd credi-app-backend/
+ 1143  code .
+ 1144  exit
+ 1145  cd ..
+ 1146  cd bsp-backend/
+ 1147  code .
+ 1148  exit
+ 1149  mysql -u root -p
+ 1150  cd Code/
+ 1151  ls
+ 1152  cd nuevo_server/
+ 1153  code .
+ 1154  nodemon index.js
+ 1155  npm --help
+ 1156  cd Code/
+ 1157  cd j
+ 1158  cd js-class/
+ 1159  code .
+ 1160  cd ..
+ 1161  mkdir nueve_once
+ 1162  cd nueve_once/
+ 1163  code .
+ 1164  poweroff 
+ 1165  ping tramites.saren.gob.ve
+ 1166  poweroff 
+ 1167  cd Code/ari_inv/
+ 1168  code .
+ 1169  cd Code/
+ 1170  cd bsp-backend/
+ 1171  code .
+ 1172  cd ..
+ 1173  cd nuevo_server/
+ 1174  code 
+ 1175  code .
+ 1176  npm start
+ 1177  exit
+ 1178  cd Code/
+ 1179  ls
+ 1180  cd ..
+ 1181  ls
+ 1182  code .
+ 1183  cd Code/Clases\ Python/
+ 1184  python3 Clase\ #2.py 
+ 1185  python3
+ 1186  python3 ejecicio21.py 
+ 1187  234234.234234
+ 1188  python3 ejecicio21.py 
+ 1189  python3
+ 1190  python3 ejecicio21.py 
+ 1191  python3 Clase\ #2.py 
+ 1192  python3 ejecicio21.py 
+ 1193  python3 Clase\ #2.py 
+ 1194  python3
+ 1195  python3 Clase\ #2.py 
+ 1196  python3
+ 1197  python3 Clase\ #2.py 
+ 1198  python3 primos.py 
+ 1199  python3
+ 1200  python3 primos.py 
+ 1201  python3
+ 1202  python3 primos.py 
+ 1203  poweroff 
+ 1204  /bin/python3
+ 1205  cd Code/
+ 1206  cd bsp-frontend/
+ 1207  code .
+ 1208  git pull
+ 1209  npm run dev
+ 1210  git pull origin main 
+ 1211  git status
+ 1212  git pull origin main 
+ 1213  npm run dev
+ 1214  git status
+ 1215  git add .
+ 1216  git commit -m "chore: all"
+ 1217  git push origin main 
+ 1218  git pull origin main 
+ 1219  exit
+ 1220  cd Code/bsp-backend/
+ 1221  code .
+ 1222  git pull
+ 1223  npm start
+ 1224  git pull origin main 
+ 1225  npm start
+ 1226  git add .
+ 1227  git commit -m "chore: all"
+ 1228  git push origin main 
+ 1229  git pull origin main 
+ 1230  git push origin main 
+ 1231  exit
+ 1232  netbird up --management-url https://netbirdvpn.sirumatek.com --admin-url https:://netbirdvpn.sirumatek.com
+ 1233  code h.txt 
+ 1234  ssh dperez@64.226.105.232
+ 1235  cd Code/
+ 1236  cd nuevo_server/
+ 1237  code .
+ 1238  exit
+ 1239  cd Code/
+ 1240  cd nuevo_server/
+ 1241  code .
+ 1242  nodemon index.js 
+ 1243  cd ..
+ 1244  ls
+ 1245  mkdir apis
+ 1246  cd apis/
+ 1247  code .
+ 1248  cd ..
+ 1249  cd server
+ 1250  code .
+ 1251  mysql -u root -p
+ 1252  code .
+ 1253  mysql -u root -p
+ 1254  cd ..
+ 1255  ls
+ 1256  cd catMeme
+ 1257  code .
+ 1258  poweroff 
+ 1259  ssh dperez@64.226.105.232
+ 1260  cd Code/
+ 1261  cd bsp-frontend/
+ 1262  code .
+ 1263  cd ~
+ 1264  history h.txt 
+ 1265  history > h.txt 
+ 1266  code h.txt 
+ 1267  exit
+ 1268  ssh dperez@64.226.105.232
+ 1269  xit
+ 1270  exit
+ 1271  cd Code/bsp-frontend/
+ 1272  git pull origin main
+ 1273  code .
+ 1274  npm run dev
+ 1275  git status
+ 1276  git add src/pages/RegisterAerolinea.jsx 
+ 1277  git commit -m "chore: change register steps"
+ 1278  git push origin main 
+ 1279  cd Code/bsp-backend/
+ 1280  git ull origin main
+ 1281  git pull origin main
+ 1282  code .
+ 1283  poweroff 
+ 1284  cd Code/
+ 1285  mkdir memes
+ 1286  cd memes/
+ 1287  code .
+ 1288  cd Code/
+ 1289  cd nuevo_server/
+ 1290  code .
+ 1291  nodemon index.js 
+ 1292  mysql -u root -p
+ 1293  poweroff 
+ 1294  cd Code/
+ 1295  ls
+ 1296  clear
+ 1297  mkdir clima
+ 1298  cd clima/
+ 1299  code .
+ 1300  cd ..
+ 1301  cd pacman/
+ 1302  code .
+ 1303  cd ..
+ 1304  code h.txt 
+ 1305  exit
+ 1306  cd Code/
+ 1307  cd EDTecnica/
+ 1308  ls
+ 1309  mkdir activities
+ 1310  cd activities/
+ 1311  git clone https://github.com/CesarMMC11/Generador-memes.git
+ 1312  ls
+ 1313  cd Generador-memes/
+ 1314  ls
+ 1315  cd Generador\ de\ memes/
+ 1316  ls
+ 1317  google-chrome index.html 
+ 1318  cd ..
+ 1319  git clone https://github.com/Gilbert1423/Memes-.git
+ 1320  cd Memes-/
+ 1321  ls
+ 1322  cd cat\ memes/
+ 1323  google-chrome index.html 
+ 1324  cd ..
+ 1325  git clone https://github.com/bertv07/Cat-meme.git
+ 1326  cd Cat-meme/
+ 1327  ls
+ 1328  cd catmeme/
+ 1329  ls
+ 1330  google-chrome index.html 
+ 1331  cd ..
+ 1332  git clone https://github.com/carlofduty666/Generador-de-Memes.git
+ 1333  cd Generador-de-Memes/
+ 1334  google-chrome index-api.html 
+ 1335  cd ~
+ 1336  cd Code/
+ 1337  ls
+ 1338  cd catMeme
+ 1339  ls
+ 1340  google-chrome index.html 
+ 1341  cd ..
+ 1342  cd memes/
+ 1343  google-chrome index.html 
+ 1344  code .
+ 1345  git status
+ 1346  git init
+ 1347  git status
+ 1348  git add .
+ 1349  git commit -m "chore: all"
+ 1350  git remote add origin git@github.com:Sirius2051/catMeme.git
+ 1351  git branch -M main
+ 1352  git push -u origin main
+ 1353  ssh-add ~/.ssh/github
+ 1354  git push -u origin main
+ 1355  cd ..
+ 1356  cd nuevo_server/
+ 1357  code .
+ 1358  clear
+ 1359  nodemon index.js 
+ 1360  cd ..
+ 1361  cd server
+ 1362  code .
+ 1363  node index.js 
+ 1364  mysql -u root -p 
+ 1365  exit
+ 1366  cd Code/nuevo_server/
+ 1367  code .
+ 1368  node index.js 
+ 1369  clear
+ 1370  node index.js 
+ 1371  nodemon index.js 
+ 1372  node index.js 
+ 1373  npm install cookie-parse
+ 1374  nodemon index.js 
+ 1375  npm install cookie-parser
+ 1376  nodemon index.js 
+ 1377  npm install multer
+ 1378  nodemon index.js 
+ 1379  exit
+ 1380  ls
+ 1381  cd PEPE
+ 1382  clear
+ 1383  cd Code/
+ 1384  ls
+ 1385  cd web_rickandmorty/
+ 1386  code .
+ 1387  cd ~
+ 1388  python
+ 1389  python3
+ 1390  cd Code/
+ 1391  touch app.py
+ 1392  code app.py 
+ 1393  python3 app.py 
+ 1394  ollama run deepseek-r1:1.5b
+ 1395  cd nuevo_server/
+ 1396  code .
+ 1397  exit
+ 1398  mysql -u root -p
+ 1399  exit
+ 1400  cd Code/nuevo_server/
+ 1401  code .
+ 1402  cd ..
+ 1403  cd credi-app-backend/
+ 1404  code .
+ 1405  exit
+ 1406  mkdir PEPE
+ 1407  cd PEPE/
+ 1408  mkdir backend
+ 1409  cd backend/
+ 1410  npm init
+ 1411  npm install express mysql2 sequelize sequelize-cli body-parser cookie-parser jsonwebtoken bcryptjs cors
+ 1412  npx sequelize-cli init
+ 1413  code .
+ 1414  npx sequelize-cli model:generate --name User --attributes username:string, password:string
+ 1415  npx sequelize-cli model:generate --name User --attributes username:string,password:string
+ 1416  npm install dotenv
+ 1417  node index.js 
+ 1418  cd ..
+ 1419  npm create vite@latest frontend -- --template react
+ 1420  ls
+ 1421  cd frontend/
+ 1422  ls
+ 1423  npm install
+ 1424  exit
+ 1425  cd Code/
+ 1426  mkdir web_marvel
+ 1427  cd web_marvel/
+ 1428  code .
+ 1429  cd ..
+ 1430  ls
+ 1431  cd clima/
+ 1432  google-chrome index.html 
+ 1433  cd ..
+ 1434  cd EDTecnica/
+ 1435  cd activities/
+ 1436  git clone https://github.com/carlofduty666/TheMarvelAPI.git
+ 1437  ls
+ 1438  cd TheMarvelAPI/
+ 1439  cd Marvel/
+ 1440  ls
+ 1441  google-chrome index.html 
+ 1442  cd ..
+ 1443  git clone https://github.com/CesarMMC11/Api---Marvel-.git
+ 1444  cd Api---Marvel-/
+ 1445  ls
+ 1446  cd Ap
+ 1447  cd API\ -\ MARVEL/
+ 1448  google-chrome index.html 
+ 1449  code .
+ 1450  ls
+ 1451  cd Code/
+ 1452  ls
+ 1453  code app.py 
+ 1454  python3 app.py 
+ 1455  Juan
+ 1456  python3 app.py 
+ 1457  poweroff 
+ 1458  ollama run deepseek-r1:1.5b
+ 1459  cd Code/
+ 1460  ls
+ 1461  cd marvel/
+ 1462  ls
+ 1463  code .
+ 1464  google-chrome index.html 
+ 1465  cd ..
+ 1466  clear
+ 1467  ollama run deepseek-r1:1.5b
+ 1468  clear
+ 1469  ollama run deepseek-r1:1.5b
+ 1470  cd Code/
+ 1471  mkdir traducciones
+ 1472  cd traducciones/
+ 1473  code .
+ 1474  cd ..
+ 1475  ls
+ 1476  cd proyecto-tiendas/
+ 1477  code .
+ 1478  cd ..
+ 1479  ls
+ 1480  cd ..
+ 1481  cd PEPE/
+ 1482  cd backend/
+ 1483  code .
+ 1484  cd ..
+ 1485  cd Code/
+ 1486  cd nuevo_server/
+ 1487  code.
+ 1488  code .
+ 1489  cd ..
+ 1490  cd bsp-backend/
+ 1491  code.
+ 1492  code .
+ 1493  ollama run deepseek-r1:1.5b
+ 1494  cd Code/
+ 1495  ls
+ 1496  code index.html 
+ 1497  cd ..
+ 1498  ls
+ 1499  cd PEPE/
+ 1500  ls
+ 1501  cd ..
+ 1502  cd Code/
+ 1503  cd web_marvel/
+ 1504  ls
+ 1505  cd ..
+ 1506  google-chrome index.html 
+ 1507  clear
+ 1508  npm create vite@latest ConectaMe -- --template react
+ 1509  cd ConectaMe/
+ 1510  npm install
+ 1511  cd ..
+ 1512  ced ..
+ 1513  cd ..
+ 1514  cd PEPE/
+ 1515  ls
+ 1516  cd frontend/
+ 1517  npm run dev
+ 1518  code .
+ 1519  npm run dev
+ 1520  cd ~
+ 1521  cd Downloads/
+ 1522  ls
+ 1523  code products.csv 
+ 1524  exit
+ 1525  cd ..
+ 1526  cd Code/bsp-frontend/
+ 1527  code .
+ 1528  exit
+ 1529  /bin/python3 /home/sirius/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/sirius/.vscode/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1530  cd ..
+ 1531  cd Code/bsp-frontend/
+ 1532  code .
+ 1533  cd Code/bsp-frontend/
+ 1534  code .
+ 1535  cd ..
+ 1536  ls
+ 1537  cd ..
+ 1538  ls
+ 1539  cd PEPE/
+ 1540  ls
+ 1541  cd frontend/
+ 1542  npm run dev
+ 1543  code .
+ 1544  npm install react-router-dom
+ 1545  npm run dev
+ 1546  poweroff 
+ 1547  cd Code/
+ 1548  cd josue/
+ 1549  code .
+ 1550  cd ..
+ 1551  touch index.html
+ 1552  code index.html '
+ 1553  code index.html
+ 1554  touch index2.html
+ 1555  code index2.html
+ 1556  code .
+ 1557  ls
+ 1558  cd marvel/
+ 1559  code .
+ 1560  cd ..
+ 1561  clear
+ 1562  mkdir nueva_web
+ 1563  cd nueva_web/
+ 1564  ls
+ 1565  ocde .
+ 1566  code .
+ 1567  cd Code/bsp-backend/
+ 1568  code .
+ 1569  mysql -u root -p
+ 1570  cd Code/nuevo_server/
+ 1571  code .
+ 1572  cd ..
+ 1573  cd bsp-frontend/
+ 1574  code .
+ 1575  cd frontend/
+ 1576  clear
+ 1577  npm run dev
+ 1578  cd PEPE/
+ 1579  ls
+ 1580  code .
+ 1581  cd backend/
+ 1582  clear
+ 1583  node index.js 
+ 1584  npm install bcrypt
+ 1585  node index.js 
+ 1586  npm run dev
+ 1587  cd ..
+ 1588  cd edtecnica/
+ 1589  code .
+ 1590  cd Code/
+ 1591  mkdir web_edtecnica
+ 1592  cd web_edtecnica/
+ 1593  code .
+ 1594  poweroff 
+ 1595  cd frontend/
+ 1596  npm run dev
+ 1597  cd PEPE/
+ 1598  ls
+ 1599  code .
+ 1600  cd backend/
+ 1601  nodemon index.js 
+ 1602  cd skate-2/
+ 1603  ls
+ 1604  node server/server.js 
+ 1605  touch index.html
+ 1606  code index.html 
+ 1607  google-chrome index.html 
+ 1608  exit
+ 1609  cd frontend/
+ 1610  npm run dev
+ 1611  cd PEPE/
+ 1612  code .
+ 1613  cd backend/
+ 1614  npx sequelize-cli model:generate --name Post --attributes title:string,content:string,img:string,userID:number
+ 1615  npm start
+ 1616  npm run dev
+ 1617  npx sequelize-cli db:migrate
+ 1618  npm run dev
+ 1619  npx sequelize-cli model:generate --name Comment --attributes title:string,content:string,userID:integer,postID:integer
+ 1620  npm run dev
+ 1621  npx sequelize-cli db:migrate
+ 1622  npx sequelize-cli migration:generate --name update-user-model
+ 1623  npx sequelize-cli db:migrate
+ 1624  npm run dev
+ 1625  npx sequelize-cli migration:generate --name change-userId-post
+ 1626  npx sequelize-cli db:migrate
+ 1627  npx sequelize-cli migration:generate --name add-userId-post
+ 1628  npx sequelize-cli db:migrate
+ 1629  npx sequelize-cli migration:generate --name add-userId-post
+ 1630  npx sequelize-cli db:migrate
+ 1631  mysql -u root -p
+ 1632  cd PEPE/
+ 1633  code .
+ 1634  cd backend/
+ 1635  npx sequelize-cli model:generate --name Pepe --attributes name:string
+ 1636  node --version
+ 1637  cd Code/
+ 1638  ls
+ 1639  mkdir server3
+ 1640  cd server3/
+ 1641  clear
+ 1642  code .
+ 1643  node index.js 
+ 1644  shutdown 
+ 1645  shutdown now
+ 1646  historry
+ 1647  history
+ 1648  exit
+ 1649  mysql -u root -p
+ 1650  cd ..
+ 1651  cd Downloads/
+ 1652  cd back/
+ 1653  ls
+ 1654  code .
+ 1655  exit
+ 1656  cd PEPE/
+ 1657  code .
+ 1658  cd ..
+ 1659  cd Code/
+ 1660  cd nuevo_server/
+ 1661  code .
+ 1662  cd ..
+ 1663  git clone https://github.com/CesarMMC11/biblioteca-de-libros.git
+ 1664  cd biblioteca-de-libros/
+ 1665  ls
+ 1666  npm install
+ 1667  code .
+ 1668  node server.js 
+ 1669  code .
+ 1670  node server.js 
+ 1671  cd ..
+ 1672  cd PEPE
+ 1673  cd ..
+ 1674  cd PEPE
+ 1675  code ..
+ 1676  cd .
+ 1677  code .
+ 1678  cd ..
+ 1679  cd Code/nuevo_server/
+ 1680  code .
+ 1681  cd ..
+ 1682  cd PEPE/
+ 1683  code .
+ 1684  exit
+ 1685  snap
+ 1686  sudo snap install ktorrent
+ 1687  sudo snap install p7zip-desktop
+ 1688  exit
+ 1689  cd frontend/
+ 1690  npm run dev
+ 1691  cd ..
+ 1692  cd Code/nuevo_server/
+ 1693  code .
+ 1694  cd PEPE/
+ 1695  code .
+ 1696  cd backend/
+ 1697  nodemon index.js 
+ 1698  npm install multer
+ 1699  nodemon index.js 
+ 1700  code .
+ 1701  nodemon index.js 
+ 1702  sudo apt update
+ 1703  sudo apt upgrate
+ 1704  sudo apt upgrade
+ 1705  sudo apt install phpmyadmin php-mbstring php-gettext
+ 1706  sudo phpenmod mbstring
+ 1707  sudo systemctl restart apache2
+ 1708  sudo apt install phpmyadmin php-mbstring 
+ 1709  sudo systemctl restart apache2
+ 1710  clear
+ 1711  sudo apt install libwebp7
+ 1712  exit
+ 1713  cd Code/nuevo_server/
+ 1714  code .
+ 1715  cd ..
+ 1716  cd server
+ 1717  code .
+ 1718  cd ..
+ 1719  cd PEPE/
+ 1720  code .
+ 1721  cd /var/www/html/web/
+ 1722  code .
+ 1723  sudo chown -R www-data:www-data /var/www/html/web/wp-content
+ 1724  sudo chmod -R 755 /var/www/html/web/wp-content
+ 1725  poweroff 
+ 1726  cd Code/
+ 1727  cd edtecnica/
+ 1728  code .
+ 1729  cd ..
+ 1730  cd web_edtecnica/
+ 1731  code .
+ 1732  cd ~
+ 1733  clear
+ 1734  mysql -u root -p
+ 1735  cd Code/
+ 1736  ls
+ 1737  cd server3
+ 1738  code .
+ 1739  node index.js 
+ 1740  clear
+ 1741  node 
+ 1742  node index.js 
+ 1743  npm init
+ 1744  npm install mongodb
+ 1745  npm install
+ 1746  node db/db.js 
+ 1747  node index.js 
+ 1748  sudo systemctl stop apache2.service 
+ 1749  sudo systemctl start apache2.service 
+ 1750  cd Downloads/
+ 1751  mysql -u root -p web2 < fghxgvwgsx.sql 
+ 1752  sudo chmod -R 755 /var/www/html/web/
+ 1753  sudo chown -R www-data:www-data /var/www/html/web/
+ 1754  sudo chown -R sirius /var/www/html/web/
+ 1755  sudo chmod -R 755 /var/www/html/web/
+ 1756  sudo chmod -R 644 /var/www/html/web/wp-content/
+ 1757  sudo chmod -R 755 /var/www/html/web/
+ 1758  php --ini
+ 1759  code /etc/php/8.3/cli/php.ini
+ 1760  sudo apt install php-mbstring php-xml php-json
+ 1761  sudo systemctl restart apache2
+ 1762  cd /var/www/html/proyecto/
+ 1763  code .
+ 1764  cd ..
+ 1765  touch test.php
+ 1766  code test.php 
+ 1767  dolphin .
+ 1768  exit
+ 1769  mysql -u root -p 
+ 1770  mysql --version
+ 1771  php --version
+ 1772  mysql -u root -p 
+ 1773  exit
+ 1774  curl -v https://krakenbackend.com:8033/ws/service.ashx?action=registerUser
+ 1775  nslookup krakenbackend.com'
+ 1776  nslookup krakenbackend.com
+ 1777  exit
+ 1778  cd ~
+ 1779  code h.txt 
+ 1780  ssh-add ~/.ssh/github
+ 1781  kasjda-EXIT
+ 1782  EXIT
+ 1783  cd /var/www/html/web
+ 1784  code .
+ 1785  code /var/log/apache2/error.log
+ 1786  cd ~
+ 1787  mysql -u root -p
+ 1788  exit
+ 1789  cd frontend/
+ 1790  npm run dev
+ 1791  exit
+ 1792  cd PEPE/
+ 1793  code .
+ 1794  git init
+ 1795  git status
+ 1796  git add *
+ 1797  git commit -m "all"
+ 1798  git remote add origin git@github.com:Sirius2051/pepeProject.git
+ 1799  git branch -M main
+ 1800  git push -u origin main
+ 1801  npm start
+ 1802  npm run dev
+ 1803  cd backend/
+ 1804  npm start
+ 1805  npm run dev
+ 1806  exit
+ 1807  cd /var/www/html/proyecto/
+ 1808  code .
+ 1809  cd ..
+ 1810  code test.php 
+ 1811  poweroff 
+ 1812  cd Code/
+ 1813  cd server3/
+ 1814  cd ..
+ 1815  cd server
+ 1816  code .
+ 1817  cd ..
+ 1818  cd server3
+ 1819  code .
+ 1820  npm install mongodb
+ 1821  echo "Hola"
+ 1822  echo "Hola jsealksjdlaksjd"
+ 1823  npm run saludo
+ 1824  npm run iniciar
+ 1825  npm install
+ 1826  npm install body-parse cookie-parse express sequelize jsonwebtoken bcrypt bcryptjs
+ 1827  node index.js 
+ 1828  cd /var/www/html/proyecto/
+ 1829  code .
+ 1830  cd Downloads/AssaultCube/
+ 1831  code .
+ 1832  flutter doctor
+ 1833  exit
+ 1834  ls
+ 1835  cd ~
+ 1836  cd snap/
+ 1837  ls
+ 1838  cd android-studio/
+ 1839  ls
+ 1840  cd current
+ 1841  ls
+ 1842  ls -l
+ 1843  cd ..
+ 1844  cd common/
+ 1845  ls
+ 1846  cd ..
+ 1847  cd 161
+ 1848  ls
+ 1849  cd ..
+ 1850  cd current
+ 1851  ls -a
+ 1852  find /snap/android-studio -name "sdkmanager"
+ 1853  nano ~/.bashrc
+ 1854  nano ~/.zshrc
+ 1855  source ~/.bashrc
+ 1856  [200~echo $ANDROID_HOME
+ 1857  ~echo $ANDROID_HOME
+ 1858  echo $ANDROID_HOME
+ 1859  cd /opt/
+ 1860  ls
+ 1861  sudo rm -f android-studio/
+ 1862  sudo rm -fr android-studio/
+ 1863  flutter doctor
+ 1864  flutter doctor --android-licenses
+ 1865  flutter doctor
+ 1866  flutter doctor --android-licenses
+ 1867  echo $ANDROID_HOME
+ 1868  sdkmanager --install "cmdline-tools;latest"
+ 1869  sudo apt install sdkmanager  
+ 1870  echo $ANDROID_HOME
+ 1871  source ~/.bashrc 
+ 1872  echo $ANDROID_HOME
+ 1873  sdkmanager --install "cmdline-tools;latest"
+ 1874  sudo apt install google-android-cmdline-tools-11.0-installer
+ 1875  sdkmanager --install "cmdline-tools;latest"
+ 1876  sudo chown -R $USER:$USER /home/sirius/Android/Sdk
+ 1877  mkdir -p ~/.android
+ 1878  touch ~/.android/repositories.cfg
+ 1879  sdkmanager --install "cmdline-tools;latest"
+ 1880  flutter doctor
+ 1881  sudo sdkmanager --install "cmdline-tools;latest"
+ 1882  sdkmanager --update
+ 1883  flutter doctor --android-licenses
+ 1884  flutter
+ 1885  sudo snap install flutter --classic
+ 1886  flutter
+ 1887  flutter doctor
+ 1888  sudo snap install android-studio --classic
+ 1889  android-studio 
+ 1890  flutter doctor
+ 1891  sudo snap --help
+ 1892  sudo snap remove drawio
+ 1893  sudo snap remove todoist
+ 1894  sudo snap remove warzone2100
+ 1895  sudo snap remove warzone2100-videos
+ 1896  sudo snap remove sftpclient 
+ 1897  sudo snap remove marktext
+ 1898  flutter doctor --android-licenses
+ 1899  flutter doctor
+ 1900  sdkmanager --install "cmdline-tools;latest"
+ 1901  sdkmanager 
+ 1902  flutter doctor
+ 1903  perl
+ 1904  perl --version
+ 1905  ruby
+ 1906  snap list
+ 1907  flutter doctor
+ 1908  flutter doctor --android-licenses
+ 1909  y
+ 1910  flutter doctor
+ 1911  sudo chown -R $USER:$USER /home/sirius/Android/Sdk
+ 1912  adb kill-server
+ 1913  export PATH=$PATH:/home/sirius/Android/Sdk/platform-tools
+ 1914  sudo adb start-server
+ 1915  ls -la
+ 1916  sudo nano .bashrc
+ 1917  source ~/.bashrc
+ 1918  adb version
+ 1919  flutter doctor --android-licenses
+ 1920  flutter doctor
+ 1921  abd
+ 1922  adb
+ 1923  adb devices
+ 1924  adb kill-server
+ 1925  sdkmanager --install "platform-tools"
+ 1926  sudo chown -R $USER:$USER /home/sirius/Android/Sdk
+ 1927  adb kill-server
+ 1928  adb start-server
+ 1929  adb devices
+ 1930  sudo nano /etc/udev/rules.d/51-android.rules
+ 1931  sudo chmod a+r /etc/udev/rules.d/51-android.rules
+ 1932  sudo service udev restart
+ 1933  adb kill-server
+ 1934  adb devices
+ 1935  sudo nano /etc/udev/rules.d/51-android.rules
+ 1936  sudo chmod a+r /etc/udev/rules.d/51-android.rules
+ 1937  sudo service udev restart
+ 1938  sudo usermod -aG plugdev $USER
+ 1939  sudo chown -R $USER:$USER /home/sirius/Android/Sdk
+ 1940  adb kill-server
+ 1941  ps -aux
+ 1942  adb kill-server
+ 1943  adb devices
+ 1944  nano /tmp/adb.1000.log
+ 1945  flutter doctor
+ 1946  sudo lsof -i tcp:5037
+ 1947  sudo rm -rf /tmp/adb*
+ 1948  sudo adb kill-server
+ 1949  adb
+ 1950  adb devices
+ 1951  sudo lsof -i tcp:5037
+ 1952  sudo rm -f ~/.android/adbkey ~/.android/adbkey.pub
+ 1953  sudo adb kill-server
+ 1954  sudo visudo
+ 1955  exit
+ 1956  sudo adb kill-server
+ 1957  sudo netstat -tuln | grep 5037
+ 1958  sdkmanager --uninstall "platform-tools"
+ 1959  sudo sdkmanager --uninstall "platform-tools"
+ 1960  flutter doctor
+ 1961  exit
+ 1962  flutter doctor
+ 1963  ps aux | grep adb
+ 1964  kill -9 7568
+ 1965  kill -9 11808
+ 1966  kill -9 2304
+ 1967  adb kill-server
+ 1968  adb start-server
+ 1969  sudo adb start-server
+ 1970  adb
+ 1971  adb devices
+ 1972  flutter doctor
+ 1973  adb devices
+ 1974  ps aux | grep adb
+ 1975  kill -9 4992
+ 1976  kill -9 2048
+ 1977  kill -9 6400
+ 1978  kill -9 11808
+ 1979  kill -9 17930
+ 1980  flutter upgrade
+ 1981  sudo chown -R $USER:$USER ~/flutter  # Si Flutter está en ~/flutter
+ 1982  sudo chown -R $USER:$USER ~/snap/flutter/common/flutter
+ 1983  ps aux | grep adb
+ 1984  kill -9 2304
+ 1985  ps aux | grep adb
+ 1986  kill -9 11808
+ 1987  kill -9 21382
+ 1988  abd devices
+ 1989  adb devices
+ 1990  ps aux | grep adb
+ 1991  kill -9 2304
+ 1992  ps aux
+ 1993  ps aux | grep adb
+ 1994  kill -9 24233
+ 1995  clear
+ 1996  cd /var/www/html/proyecto/
+ 1997  subl 
+ 1998  subl .
+ 1999  reboot 
+ 2000  cd /var/www/html/proyecto/
+ 2001  code .
+ 2002  mysql -u root -p
+ 2003  cd ~
+ 2004  cd PEPE
+ 2005  code .
+ 2006  clear
+ 2007  cd backend/
+ 2008  nodemon index.js 
+ 2009  npm install nodemailer\
+ 2010  npm install nodemailer
+ 2011  nodemon index.js 
+ 2012  history > h.text
